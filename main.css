@@ -1,0 +1,402 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0EBEB;
+}
+
+/* Navbar */
+
+.navbar{
+    position: relative;
+    z-index: 1;
+    background-color: #013A51 ;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.navbar-toggler {
+    border-color: var(--white); 
+}
+.navbar-toggler-icon{
+    border-color: var(--white); 
+}
+.scroll .navbar-expand-lg {
+    background: var(--red);
+  }
+.navbar-brand, .nav-link{
+    color: #F7FFF7;
+}
+.navbar-nav{ 
+    margin-right: 1rem !important;
+}
+.navbar-brand{
+    /* margin-left: 2rem !important; */
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+.nav-link{
+    margin-left: 2rem !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-link:hover{
+    color:  #F7FFF7;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    color:  #F7FFF7;
+    text-decoration: underline;
+    font-weight: 800;
+}
+.active{
+    font-weight: 500;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+
+}
+.jumbotron h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.jumbotron h2{
+    font-weight: 500;
+    font-size: 32px;
+    max-width: 300px;
+}
+
+.jumbotron .container{
+    /* color:  #013A51; */
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+.lead{
+    font-size: 18px;
+    max-width: 300px;
+    color: #849DA2;
+}
+.lead span{
+    font-weight: 700;
+}
+.tombol{
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+    /* padding-top: 9px; */
+    background-color: #013A51;
+}
+.jumbotron::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(240, 237, 237, 0) 0%, rgba(240, 238, 238, 0.63) 33.33%, #F0EBEB 100%);
+    position: absolute;
+    bottom: 0;
+    margin-left: -16px;
+}
+
+/* My Profil */
+
+.container-myprofil{
+    height: 100%;
+    align-items: center;
+    margin: auto;
+}
+.profil{
+    margin-top: 75px;
+    color:  #013A51;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    font-size: 24px;
+}
+.container-profile h2{
+    font-size: 32px;
+    color: #013A51;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.col-lg-5{
+    /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 45px; */
+    margin-top: 20px;
+    height: 610px;
+}
+.col-lg-6{
+    margin-right: 30px;
+}
+.card-title{
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+    color: #013A51;
+    max-width: 300px;
+    font-size: 32px;
+}
+.card-text{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    color: #849DA2;
+    font-size: 18px;
+}
+.col-lg-5 .tombol{
+    margin-left: 40px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.col-lg-6 .img-fluid{
+   align-items: center !important;
+    width: 300px;
+}
+
+/* Porfolio */
+.col-12 h2{
+    font-size: 32px;
+    color: #013A51;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.gambar-portfolio{
+    width: 400px;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: 2.5rem;
+}
+.gambar1, .gambar2, .gambar3, .gambar4, .gambar5, .gambar6, .gambar7, .gambar8{
+    width: 262px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.portfolio{
+    align-items: center !important;
+    align-content: center !important;
+    width: 200px;
+}
+.gambar1 .img-fluid{
+    align-items: center;
+    margin-top: 60px;
+    width: 220px;
+}
+.gambar2 .img-fluid{
+    align-items: center;
+    margin-top: 70px;
+    width: 220px;
+}
+.gambar3 .img-fluid{
+    align-items: center;
+    margin-top: 30px;
+    width: 200px;
+}
+.gambar4 .img-fluid{
+    align-items: center;
+    margin-top: 60px;
+    width: 220px;
+}
+.gambar5 .img-fluid{
+    align-items: center;
+    margin-top: 40px;
+    width: 220px;
+}
+.gambar6 .img-fluid{
+    align-items: center;
+    margin-top: 60px;
+    width: 220px;
+}
+.gambar7 .img-fluid{
+    align-items: center;
+    margin-top: 60px;
+    width: 220px;
+}
+.gambar8 .img-fluid{
+    align-items: center;
+    margin-top: 60px;
+    width: 220px;
+}
+.detail-portfolio{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #013A51;
+    margin-right: 30px;
+}
+
+/* Contact Me */
+.col-lg-3{
+    align-items: center !important;
+    align-content: center !important;
+}
+.col-12 .pb-4 h2{
+    margin-left: -20px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+}
+
+/* Desktop Version */
+@media (min-width: 992px){
+    /* navbar */
+    .nav-link{
+        margin-left: 2rem !important;
+    }
+    .navbar{
+    background-color: #013A51 ;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    /* Jumbotron */
+    .jumbotron{
+        background-image: url(img/bg.jpg);
+        background-size: cover;
+        height: 992px;
+    }
+    .jumbotron .container{
+        color:  #013A51;
+        margin-top: 110px;
+    }
+    .jumbotron h1{
+        font-weight: 700;
+        font-size: 64px;
+    }
+    .jumbotron h2{
+        font-weight: 500;
+        font-size: 48px;
+        max-width: 800px;
+    }
+    .jumbotron::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(240, 237, 237, 0) 0%, rgba(240, 238, 238, 0.63) 33.33%, #F0EBEB 100%);
+        position: absolute;
+        bottom: 0;
+        margin-left: -32px;
+    }
+    .lead{
+        font-size: 32px;
+        max-width: 800px;
+    }
+    /* About/Profil */
+    .container-profile h2{
+        font-size: 48px;
+        color: #013A51;
+        margin-top: 80px;
+        font-weight: 700;
+    }
+    .tombol{
+        border-radius: 40px;
+        height: 70px;
+        width: 262px;
+        text-align: center;
+        margin: auto;
+        padding-top: 18px;
+    }
+    .profil{
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .col-lg-5{
+        border-radius: 45px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 45px;
+        margin-top: 40px;
+        height: 800px;
+        background-color: #ffffff;
+    }
+    .col-lg-5 .tombol{
+        font-size: 24px;
+        padding-top: 15px;
+        margin-top: 40px;
+    }
+    .col-lg-6 .img-fluid{
+        margin-right: 30px;
+        width: 800px;
+    }
+    .card-title{
+        margin-top: 80px;
+        line-height: 80px;
+        max-width: 600px;
+    }
+    .card-text{
+        margin-left: 50px;
+        margin-top: 40px;
+        font-size: 24px;
+        line-height: 80px;
+        color: #849DA2;
+    }
+
+    /* Porfolio */
+    .col-12 h2{
+        font-size: 48px;
+        color: #013A51;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-weight: 700;
+    }
+    .gambar-portfolio{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: -20px;
+    }
+    .gambar1{
+        width: 262px;
+        height: 220px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .gambar1 .img-fluid{
+        align-items: center;
+        margin-top: 60px;
+        width: 220px;
+        margin-left: 10px;
+    }
+    .detail-portfolio{
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: #013A51;
+        align-items: center !important;
+        align-content: center !important;
+        margin-left: 40px;
+    }
+    /* Contact Me */
+    .col-lg-3{
+        align-items: center !important;
+        align-content: center !important;
+        margin-left: -20px;
+    }
+    .col-12 .pb-4 h2{
+        margin-left: -20px;
+    }
+
+
+}
